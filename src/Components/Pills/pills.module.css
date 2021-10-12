@@ -1,0 +1,19 @@
+.pills {
+  display: flex;
+
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.pills_option {
+  border: 0.1rem solid var(--gray);
+  padding: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+.pills_active {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 0.1rem solid var(--blue);
+}

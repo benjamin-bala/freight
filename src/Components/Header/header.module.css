@@ -1,0 +1,33 @@
+.header {
+  display: grid;
+  grid-template-columns: 0.8fr 3fr 3fr;
+  gap: 2rem;
+  background-color: var(--blue);
+  padding: 1rem 1.5rem;
+  height: 6rem;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.header_logo h2 {
+  color: var(--white);
+}
+.searchbox_container {
+  max-width: 50rem;
+  /* min-width: 40rem; */
+}
+.header_cta {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2.5rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .searchbox_container,
+  .header_cta {
+    display: none;
+  }
+}

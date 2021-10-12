@@ -1,0 +1,1 @@
+export const cargoDetails = ["total dimension", "package details"]

@@ -1,0 +1,25 @@
+.toggle {
+  width: 3.5rem;
+  height: 2.3rem;
+  background-color: var(--gray);
+  border: 0.1rem thick var(--dark-gray);
+  border-radius: 2rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  border: 0.1rem solid var(--gray);
+}
+.active {
+  background-color: var(--blue);
+}
+
+.toggle_selection {
+  background-color: var(--white);
+  width: 50%;
+  height: 100%;
+  border-radius: 100%;
+  transition: all 0.1s ease;
+}
+
+.toggle_selected {
+  transform: translateX(90%);
+}

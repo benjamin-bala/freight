@@ -1,0 +1,8 @@
+.paragraph h2 {
+  font-size: 1.6rem;
+  color: var(--black);
+}
+.paragraph p {
+  font-size: 1.4rem;
+  color: var(--dark-gray);
+}

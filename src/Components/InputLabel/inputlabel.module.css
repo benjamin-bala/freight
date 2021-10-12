@@ -1,0 +1,40 @@
+.inputlabel {
+  display: grid;
+  font-size: 1.4rem;
+  border: 0.2rem solid var(--gray);
+  width: max-content;
+  padding: 0.5rem;
+}
+.inputlabel label {
+  text-transform: capitalize;
+  background-color: #fff;
+  width: max-content;
+  font-weight: 500;
+  transform: translate(1rem, -1.5rem);
+  padding: 0 0.5rem;
+  position: absolute;
+}
+
+.inputunit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputunit input {
+  background: none;
+  outline: none;
+  height: 100%;
+  padding: 1.3rem 1rem;
+}
+
+.inputunit p {
+  padding-right: 1rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+
+@media (max-width: 768px) {
+  .inputlabel {
+    width: 100%;
+  }
+}

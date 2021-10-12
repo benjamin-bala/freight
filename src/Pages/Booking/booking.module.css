@@ -1,0 +1,136 @@
+.booking {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 5rem;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding: 2rem;
+}
+.back_button {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2.5rem;
+}
+.booking_details {
+  width: 100%;
+  max-width: 1020px;
+  /* margin: 0 auto; */
+  margin-left: 5vw;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.booking_details_header {
+  font-size: 1.4rem;
+}
+.booking_service_header {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking_details_header p {
+  color: var(--dark-gray);
+  line-height: 4rem;
+}
+
+.booking_details_card_header h2,
+.booking_details_cargo_header h2,
+.booking_service_header h2 {
+  font-size: 1.8rem;
+  color: var(--black);
+}
+
+.booking_details_card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* height: 30rem; */
+  box-shadow: 0.1rem 0.1rem 2rem rgba(168, 168, 168, 0.267);
+  border: 0.1rem solid #fafafa;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+.booking_service {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+}
+.booking_details_input1 {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 2fr;
+  grid-column-gap: 2rem;
+}
+.booking_details_input2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  margin: 4rem 0;
+}
+
+.booking_details_cargo_header,
+.booking_details_cargo_header_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.booking_details_cargo_header_info p {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.booking_cargo_tab {
+  margin: 2rem 0;
+}
+
+.booking_cargo_input {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto;
+  grid-row-gap: 2rem;
+}
+
+.booking_details_additional_services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 3rem;
+  margin: 2rem 0;
+}
+.additional_services {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+@media (max-width: 768px) {
+  .booking {
+    flex-direction: column;
+  }
+  .booking_details {
+    margin: 0;
+  }
+  .back_button {
+    justify-content: flex-start;
+  }
+  .booking_service {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .booking_details_additional_services {
+    grid-template-columns: 1fr;
+  }
+  .booking_details_input2,
+  .booking_details_input1 {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

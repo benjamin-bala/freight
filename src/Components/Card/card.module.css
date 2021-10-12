@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 10rem;
+  width: 100%;
+  border-radius: 0.7rem;
+  color: var(--dark-gray);
+  overflow: hidden;
+  border: 0.2rem solid var(--gray);
+  cursor: pointer;
+}
+.active {
+  color: var(--white);
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+.card_name {
+  padding: 0 3rem;
+  font-weight: 500;
+}
+.card_name p {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+.card_icon {
+  font-size: 6.5rem;
+  /* display: flex;
+  align-items: flex-end;
+  justify-content: flex-end; */
+  transform: translate(1rem, 3.4rem);
+}
