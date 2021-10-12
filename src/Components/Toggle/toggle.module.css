@@ -1,4 +1,6 @@
 .toggle {
+  display: flex;
+  align-items: center;
   width: 3.5rem;
   height: 2.3rem;
   background-color: var(--gray);
@@ -22,4 +24,10 @@
 
 .toggle_selected {
   transform: translateX(90%);
+}
+
+@media (max-width: 768px) {
+  .toggle_selection {
+    height: 70%;
+  }
 }

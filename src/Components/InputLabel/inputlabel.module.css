@@ -13,6 +13,7 @@
   transform: translate(1rem, -1.5rem);
   padding: 0 0.5rem;
   position: absolute;
+  white-space: nowrap;
 }
 
 .inputunit {
@@ -35,6 +36,9 @@
 
 @media (max-width: 768px) {
   .inputlabel {
+    width: 100%;
+  }
+  .inputunit input {
     width: 100%;
   }
 }

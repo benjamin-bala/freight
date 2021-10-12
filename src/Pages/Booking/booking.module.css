@@ -26,7 +26,7 @@
 .booking_service_header {
   margin-bottom: 2.5rem;
   display: flex;
-  justify-content: space-between;
+  white-space: nowrap;
   align-items: center;
 }
 .booking_details_header p {
@@ -78,7 +78,6 @@
 }
 
 .booking_details_cargo_header_info p {
-  margin-left: 1rem;
   font-size: 1.4rem;
   font-weight: 600;
 }
