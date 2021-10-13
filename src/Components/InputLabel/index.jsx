@@ -4,7 +4,7 @@ import style from './inputlabel.module.css'
 export default function InputLabel({label,unit,event,value}) {
     return (
         <div className={style.inputlabel}>
-            <label htmlFor={label}>
+            <label htmlFor={label} className="sr-only">
                 {label}
             </label>
             <div className={style.inputunit}>

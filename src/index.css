@@ -11,7 +11,7 @@
   --white: #fafafa;
   --gray: #e6e6e6;
   --dark-gray: #888;
-  --black: rgba(24, 24, 24, 0.829);
+  --black: rgb(24, 24, 24);
 }
 
 /*Remove default styles from input*/
@@ -41,5 +41,12 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 57.5%;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input:focus,
+  input {
+    font-size: 16px;
   }
 }
